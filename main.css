@@ -1,0 +1,93 @@
+body {
+    font-size: 67.5%;
+    font-family: 'Times New Roman', Times, serif;
+    background: black url(img/depositphotos_75267437-stock-illustration-tuning-car-silhouette.jpg)no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+}
+
+h1 {
+    padding: 60px;
+    text-align: justify;
+    background-color: transparent;
+    color: purple;
+    font-size: 30px;
+}
+
+img {
+    border: 1px transparent #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+
+nav {
+    color #0000;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;            
+}
+nav li a, nav li a:visted {
+    text-decoration: none;
+    color: red;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: greenyellow;
+    background-color: blueviolet;
+}
+p {
+    font-size: 2em;
+    color: rebeccapurple;
+    background-color: greenyellow;
+    font-weight: 500;
+}
+nav#utilityMenu{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: cornflowerblue;
+    height: 1.3em;
+}
+section#sidebar {
+    width 238px;
+    float: right; 
+    position: relative;
+    display: block;
+    background-color: lime;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: purple dashed 10px;
+}
+section #main {
+    background-color: magenta;
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px cornflowerblue;
+}
+section div.panel{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 2.0em;
+    background-color: transparent;
+    border: gold solid 1.5px;
+    border-radius: 0.6em;
+}
